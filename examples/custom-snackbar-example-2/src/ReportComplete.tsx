@@ -100,7 +100,7 @@ const ReportComplete = forwardRef<HTMLDivElement, ReportCompleteProps>(
             </div>
           </StyledCardActions>
           <Collapse in={expanded} timeout="auto" unmountOnExit>
-            <StyledPaper>
+            <Paper sx={{ bgColor: '#fff', p: 2 }}>
               <Typography
                 gutterBottom
                 variant="caption"
